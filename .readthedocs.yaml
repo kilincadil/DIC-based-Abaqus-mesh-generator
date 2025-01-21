@@ -17,5 +17,4 @@ sphinx:
 # Optionally, declare the Python requirements required to build your documentation
 python:
   install:
-    - pip: install --upgrade pip setuptools wheel
-    - pip: install --upgrade -r requirements.txt  # Ensure this includes all dependencies (e.g., sphinx, sphinx_rtd_theme)
+    - requirements: requirements.txt  # This points to your requirements.txt
