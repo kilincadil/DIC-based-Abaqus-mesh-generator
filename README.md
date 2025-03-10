@@ -1,2 +1,8 @@
 # Abaqus-DIC-mesh-generator
-This script generates an Abaqus input file with mesh information and material data. It includes classes for creating the mesh and inserting material properties, with detailed comments explaining the purpose of each function.
+A Python package that maps digital image correlation (DIC) deformation data onto finite element meshes. It supports:
+
+Microscale Models: Creates a regular grid mesh for pixel-level deformation mapping.
+Mesoscale Models: Generates a triangular mesh for grain-level deformation mapping.
+Its purpose is to combine DIC data with Abaqus input files for more accurate material simulations and data coupling.
+.
+More explanations are given in respective scripts and be updated later.
